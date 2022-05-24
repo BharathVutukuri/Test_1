@@ -1,4 +1,4 @@
-name: Pull request labeler
+name: Push request labeler
 on: [ push_request_target ]
 
 permissions:
