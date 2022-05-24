@@ -11,4 +11,4 @@ jobs:
     steps:
       - uses: actions/labeler@v4
         with:
-          repo-token: ${{ secrets.ARTIFACTORY_TOKEN }}
+          envi-token: ${{ secrets.ARTIFACTORY_TOKEN }}
