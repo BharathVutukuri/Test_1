@@ -8,6 +8,7 @@ permissions:
 jobs:
   triage:
     runs-on: windows-latest
+    environment: production
     steps:
       - uses: actions/labeler@v4
         with:
